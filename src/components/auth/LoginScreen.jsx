@@ -37,7 +37,7 @@ export default function LoginForm() {
             <Pressable style={styles.button} onPress={() => {
                 if (users[username] === password) {
                     Alert.alert("Login Successfuly!")
-                    navigation.navigate("Screen1")
+                    navigation.navigate("InventoryScreen")
                 } else {
                     setErrorMessage("Invalid username or password")
                 }
