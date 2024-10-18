@@ -1,11 +1,17 @@
 import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import LoginForm from './components/auth/LoginScreen';
+
+const Stack = createStackNavigator();
 
 function App() {
   return (
-    <div>
-      <h1>ConstruHack 2024</h1>
-      {/* Aquí irá el contenido de tu aplicación */}
-    </div>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Login" component={LoginForm} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
