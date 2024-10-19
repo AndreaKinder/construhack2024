@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
-import { SearchBar } from 'react-native-elements';
 import { Ionicons } from '@expo/vector-icons';
+import SearchBar from '@/src/search/SearchBar';
 
 const InventoryScreen = () => {
   const [inventory, setInventory] = useState([]);
