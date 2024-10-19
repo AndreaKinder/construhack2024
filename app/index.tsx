@@ -22,5 +22,3 @@ function Navigations() {
 }
 
 export default Navigations;
-
-

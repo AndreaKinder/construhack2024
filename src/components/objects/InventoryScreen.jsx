@@ -14,7 +14,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, FlatList, Image, Modal, Button } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import SearchBar from '@/src/search/SearchBar';
-import { Camera } from 'expo-camera';
+//import { Camera } from 'expo-camera';
 import { Ionicons } from '@expo/vector-icons';
 
 const InventoryScreen = () => {
