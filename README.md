@@ -4,9 +4,9 @@
 Esta aplicación fue desarrollada en tan solo 3 días para la hackathon "ConstruHack 2024". Es un modelo para la presentación de una aplicación innovadora que promueve la economía circular en el sector de la construcción. Utilizando una base de datos de materiales sobrantes de obras civiles, la aplicación permite que estos recursos se reutilicen eficientemente en otros proyectos, reduciendo el excedente y fomentando la sostenibilidad en la industria de la construcción.
 
 ## Imagenes de la aplicacion
-[App Image 1](img/app-construhack2024.png)
-[App Image 2](img/app-construhack2024-2.png)
-[App Image 3](img/app-construhack2024-3.png)
+![App Image 1](img/app-construhack2024.png)
+![App Image 2](img/app-construhack2024-2.png)
+![App Image 3](img/app-construhack2024-3.png)
 ## Características
 - Gestión de inventario de materiales sobrantes de obras civiles
 - Sistema de búsqueda y filtrado para encontrar materiales reutilizables
