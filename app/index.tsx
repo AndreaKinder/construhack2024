@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import InventoryScreen from '../src/components/objects/InventoryScreen';
-import LoginScreen from '../src/components/auth/LoginScreen';
+import LoginScreen from '../src/screens/LoginScreen';
 import InventoryDetailsScreen from '../src/components/objects/InventoryDetailsScreen';
 import AnalyticsTab from '../src/components/objects/InventoryScreenAnalitics';
 
