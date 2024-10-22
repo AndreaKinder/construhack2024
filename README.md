@@ -7,6 +7,9 @@ Esta aplicación fue desarrollada en tan solo 3 días para la hackathon "Constru
 ![App Image 3](img/app-construhack2024-3.png)
 ![App Image 1](img/app-construhack2024.png)
 ![App Image 2](img/app-construhack2024-2.png)
+## Cómo funciona la aplicación
+![Esquema de la app](img/estructure-app.jpg)
+
 ## Características
 - Gestión de inventario de materiales sobrantes de obras civiles
 - Sistema de búsqueda y filtrado para encontrar materiales reutilizables
