@@ -5,7 +5,7 @@ import styles from "../styles";
 export default function ActionButtonCardItem() {
     return (
         <View style={styles.actions}>
-          <Button title="Reservar |Solicitar" onPress={() => console.log('Reservar | Solicitar')} />
+          <Button title="Reservar | Solicitar" onPress={() => console.log('Reservar | Solicitar')} />
         </View>
     )
 }

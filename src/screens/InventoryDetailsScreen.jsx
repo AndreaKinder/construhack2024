@@ -11,9 +11,9 @@ export default function ItemDetailsScreen({ item }) {
       {exampleItems.map((item, i) => 
         <CardItem 
           key={i} 
-          nameItem={item.name} 
-          descriptionItem={item.description} 
-          imageItem={item.image}
+          nameItem={item.material.parametros_generales.identificacion.nombre_comercial} 
+          descriptionItem={item.material.parametros_generales.descripcion} 
+          imageItem={item.material.parametros_generales.imagen}
          />
         )}
     </ScrollView>    

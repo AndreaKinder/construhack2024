@@ -1,32 +1,283 @@
 [
   {
-    "id": 1,
-    "name": "Pala de obra",
-    "description": "Pala de obra en buen estado, ideal para mover tierra y otros materiales.",
-    "image": "https://th.bing.com/th/id/OIP.ZAWa2trM5ig_8NSpuwmLgAHaEE?rs=1&pid=ImgDetMain"
+    "material": {
+      "parametros_generales": {
+        "identificacion": {
+          "codigo_unico": "001",
+          "nombre_comercial": "Material A",
+          "sinonimos": ["Material Alpha", "MA"]
+        },
+        "composicion": {
+          "elementos_quimicos": ["H2O", "C"],
+          "materiales_base": ["Agua", "Carbono"]
+        },
+        "origen": "Natural",
+        "estado": "Sólido",
+        "descripcion": "Material A es un compuesto sólido utilizado en diversas aplicaciones.",
+        "imagen": "https://images.pexels.com/photos/963278/pexels-photo-963278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "cantidad_disponible": {
+          "volumen": 100,
+          "peso": 200
+        }
+      },
+      "parametros_seguridad": {
+        "toxicidad": "Baja",
+        "riesgos_fisicos": ["Inflamable"],
+        "riesgos_quimicos": ["Reacciona con ácidos"],
+        "riesgos_biologicos": ["Ninguno"],
+        "propiedades_fisicas": {
+          "densidad": 1.2,
+          "punto_fusion": 150,
+          "solubilidad": 0.5
+        }
+      },
+      "parametros_reutilizacion": {
+        "capacidad_reutilizacion_directa": true,
+        "capacidad_reciclaje": false,
+        "compatibilidad_otros_materiales": ["Material B"],
+        "vida_util_estimada": "5 años",
+        "tratamientos_necesarios": ["Ninguno"],
+        "aplicaciones_potenciales": ["Construcción"]
+      },
+      "parametros_economia_circular": {
+        "huella_carbono": 10,
+        "costo_gestion": {
+          "recoleccion": 5,
+          "tratamiento": 3,
+          "disposicion_final": 2
+        },
+        "valor_economico": 50
+      },
+      "parametros_tecnicos": {
+        "dimensiones": {
+          "largo": 100,
+          "ancho": 50,
+          "espesor": 10
+        },
+        "forma": "Rectangular",
+        "resistencia_mecanica": {
+          "compresion": 100,
+          "traccion": 150,
+          "flexion": 200
+        },
+        "resistencia_intemperie": {
+          "humedad": 80,
+          "rayos_uv": 70
+        },
+        "aislamiento_termico": 0.8,
+        "aislamiento_acustico": 0.9
+      }
+    }
   },
   {
-    "id": 2,
-    "name": "Rastrillo",
-    "description": "Rastrillo perfecto para recoger hojas y otros materiales en el jard n.",
-    "image": "https://th.bing.com/th/id/OIP.ZAWa2trM5ig_8NSpuwmLgAHaEE?rs=1&pid=ImgDetMain"
+    "material": {
+      "parametros_generales": {
+        "identificacion": {
+          "codigo_unico": "002",
+          "nombre_comercial": "Material B",
+          "sinonimos": ["Material Beta", "MB"]
+        },
+        "composicion": {
+          "elementos_quimicos": ["O2", "N2"],
+          "materiales_base": ["Oxígeno", "Nitrógeno"]
+        },
+        "origen": "Sintético",
+        "estado": "Líquido",
+        "descripcion": "Material B es un líquido inerte usado en procesos industriales.",
+        "imagen": "https://images.pexels.com/photos/963278/pexels-photo-963278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "cantidad_disponible": {
+          "volumen": 200,
+          "peso": 300
+        }
+      },
+      "parametros_seguridad": {
+        "toxicidad": "Alta",
+        "riesgos_fisicos": ["Explosivo"],
+        "riesgos_quimicos": ["Oxidante fuerte"],
+        "riesgos_biologicos": ["Irritante"],
+        "propiedades_fisicas": {
+          "densidad": 0.8,
+          "punto_fusion": -50,
+          "solubilidad": 0.9
+        }
+      },
+      "parametros_reutilizacion": {
+        "capacidad_reutilizacion_directa": false,
+        "capacidad_reciclaje": true,
+        "compatibilidad_otros_materiales": ["Material A"],
+        "vida_util_estimada": "2 años",
+        "tratamientos_necesarios": ["Descontaminación"],
+        "aplicaciones_potenciales": ["Industria química"]
+      },
+      "parametros_economia_circular": {
+        "huella_carbono": 20,
+        "costo_gestion": {
+          "recoleccion": 8,
+          "tratamiento": 5,
+          "disposicion_final": 4
+        },
+        "valor_economico": 100
+      },
+      "parametros_tecnicos": {
+        "dimensiones": {
+          "largo": 200,
+          "ancho": 100,
+          "espesor": 5
+        },
+        "forma": "Cilíndrica",
+        "resistencia_mecanica": {
+          "compresion": 200,
+          "traccion": 250,
+          "flexion": 300
+        },
+        "resistencia_intemperie": {
+          "humedad": 60,
+          "rayos_uv": 90
+        },
+        "aislamiento_termico": 0.6,
+        "aislamiento_acustico": 0.7
+      }
+    }
   },
   {
-    "id": 3,
-    "name": "Carretilla",
-    "description": "Carretilla para transportar materiales pesados con facilidad.",
-    "image": "https://th.bing.com/th/id/OIP.ZAWa2trM5ig_8NSpuwmLgAHaEE?rs=1&pid=ImgDetMain"
+    "material": {
+      "parametros_generales": {
+        "identificacion": {
+          "codigo_unico": "003",
+          "nombre_comercial": "Material C",
+          "sinonimos": ["Material Gamma", "MC"]
+        },
+        "composicion": {
+          "elementos_quimicos": ["Fe", "Al"],
+          "materiales_base": ["Hierro", "Aluminio"]
+        },
+        "origen": "Reciclado",
+        "estado": "Polvo",
+        "descripcion": "Material C es un polvo metálico usado para aleaciones.",
+        "imagen": "https://images.pexels.com/photos/963278/pexels-photo-963278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "cantidad_disponible": {
+          "volumen": 150,
+          "peso": 250
+        }
+      },
+      "parametros_seguridad": {
+        "toxicidad": "Moderada",
+        "riesgos_fisicos": ["Corrosivo"],
+        "riesgos_quimicos": ["Reacciona con bases"],
+        "riesgos_biologicos": ["Sensibilizante"],
+        "propiedades_fisicas": {
+          "densidad": 2.5,
+          "punto_fusion": 300,
+          "solubilidad": 0.1
+        }
+      },
+      "parametros_reutilizacion": {
+        "capacidad_reutilizacion_directa": true,
+        "capacidad_reciclaje": true,
+        "compatibilidad_otros_materiales": ["Material D"],
+        "vida_util_estimada": "10 años",
+        "tratamientos_necesarios": ["Filtrado"],
+        "aplicaciones_potenciales": ["Metalurgia"]
+      },
+      "parametros_economia_circular": {
+        "huella_carbono": 5,
+        "costo_gestion": {
+          "recoleccion": 6,
+          "tratamiento": 4,
+          "disposicion_final": 3
+        },
+        "valor_economico": 75
+      },
+      "parametros_tecnicos": {
+        "dimensiones": {
+          "largo": 50,
+          "ancho": 25,
+          "espesor": 2
+        },
+        "forma": "Polvo",
+        "resistencia_mecanica": {
+          "compresion": 300,
+          "traccion": 350,
+          "flexion": 400
+        },
+        "resistencia_intemperie": {
+          "humedad": 90,
+          "rayos_uv": 95
+        },
+        "aislamiento_termico": 0.4,
+        "aislamiento_acustico": 0.5
+      }
+    }
   },
   {
-    "id": 4,
-    "name": "Manguera",
-    "description": "Manguera para regar jardines y huertas.",
-    "image": "https://th.bing.com/th/id/OIP.ZAWa2trM5ig_8NSpuwmLgAHaEE?rs=1&pid=ImgDetMain"
-  },
-  {
-    "id": 5,
-    "name": "Sierra de podar",
-    "description": "Sierra de podar para recortar ramas y plantas.",
-    "image": "https://th.bing.com/th/id/OIP.ZAWa2trM5ig_8NSpuwmLgAHaEE?rs=1&pid=ImgDetMain"
+    "material": {
+      "parametros_generales": {
+        "identificacion": {
+          "codigo_unico": "004",
+          "nombre_comercial": "Material D",
+          "sinonimos": ["Material Delta", "MD"]
+        },
+        "composicion": {
+          "elementos_quimicos": ["Si", "O"],
+          "materiales_base": ["Silicio", "Oxígeno"]
+        },
+        "origen": "Artificial",
+        "estado": "Gaseoso",
+        "descripcion": "Material D es un gas protector utilizado en procesos industriales.",
+        "imagen": "https://images.pexels.com/photos/963278/pexels-photo-963278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "cantidad_disponible": {
+          "volumen": 300,
+          "peso": 400
+        }
+      },
+      "parametros_seguridad": {
+        "toxicidad": "Nula",
+        "riesgos_fisicos": ["Asfixiante"],
+        "riesgos_quimicos": ["No reactivo"],
+        "riesgos_biologicos": ["Ninguno"],
+        "propiedades_fisicas": {
+          "densidad": 0.2,
+          "punto_fusion": -200,
+          "solubilidad": 0
+        }
+      },
+      "parametros_reutilizacion": {
+        "capacidad_reutilizacion_directa": false,
+        "capacidad_reciclaje": false,
+        "compatibilidad_otros_materiales": ["Material C"],
+        "vida_util_estimada": "Indefinida",
+        "tratamientos_necesarios": ["Compresión"],
+        "aplicaciones_potenciales": ["Protección ambiental"]
+      },
+      "parametros_economia_circular": {
+        "huella_carbono": 1,
+        "costo_gestion": {
+          "recoleccion": 2,
+          "tratamiento": 1,
+          "disposicion_final": 1
+        },
+        "valor_economico": 25
+      },
+      "parametros_tecnicos": {
+        "dimensiones": {
+          "largo": 10,
+          "ancho": 10,
+          "espesor": 1
+        },
+        "forma": "Gaseosa",
+        "resistencia_mecanica": {
+          "compresion": 10,
+          "traccion": 20,
+          "flexion": 30
+        },
+        "resistencia_intemperie": {
+          "humedad": 100,
+          "rayos_uv": 100
+        },
+        "aislamiento_termico": 0.1,
+        "aislamiento_acustico": 0.2
+      }
+    }
   }
 ]
+
