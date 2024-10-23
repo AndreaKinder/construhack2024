@@ -13,7 +13,7 @@ function Navigations() {
             <Drawer.Navigator initialRouteName="Login">
                 <Drawer.Screen name="Login" component={LoginScreen} />
                 <Drawer.Screen name="Inventory" component={InventoryScreen} />
-                <Drawer.Screen name="InventoryDetails" component={InventoryDetailsScreen} options={{ unmountOnBlur: true }} initialParams={{ item: {} as any }} />
+                <Drawer.Screen name="Interfaz de Ejemplo" component={InventoryDetailsScreen} />
             </Drawer.Navigator>
         </NavigationContainer>
     );

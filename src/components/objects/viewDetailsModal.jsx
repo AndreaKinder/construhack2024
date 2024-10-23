@@ -21,7 +21,7 @@ export default function ViewDetailsButton({item}) {
             <ScrollView>
               <GeneralDetallsTextItem item={item} />
             </ScrollView>
-            <Pressable
+            <Pressable 
               style={[styles.button, styles.buttonClose]}
               onPress={() => setModalVisible(!modalVisible)}>
               <Text style={styles.textStyle}>Close</Text>

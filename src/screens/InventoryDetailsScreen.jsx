@@ -4,7 +4,7 @@ import jsonItemsExemple from '../components/objects/data/exempleItems.json';
 import CardItem from '../components/objects/cardItem';
 import { ScrollView } from 'react-native-gesture-handler';
 
-export default function ItemDetailsScreen({ item }) {
+export default function ItemDetailsScreen() {
   const exampleItems = [...jsonItemsExemple];
   return (
     <ScrollView style={styles.container}>
