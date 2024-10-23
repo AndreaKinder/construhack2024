@@ -6,7 +6,7 @@ import GeneralDetallsTextItem from "./DetallsTextItemsComponents/General/General
 import QuantityAvailableDetallsTextItem from "./DetallsTextItemsComponents/General/QuantityAvailableDetallsTextItem";
 import SecurityDetallsTextItems from "./DetallsTextItemsComponents/Seguridad/SecurityDetallsTextItems";
 import FisicPropietyTextItem from "./DetallsTextItemsComponents/Seguridad/FisicPropietyTextItem";
-
+import DetallesEconomiaCircularTextItem from "./DetallsTextItemsComponents/EconomyTextItem";
 
 export default function DetallsTextItems({ item }) {
     return (
@@ -17,6 +17,7 @@ export default function DetallsTextItems({ item }) {
             <QuantityAvailableDetallsTextItem item={item} />
             <SecurityDetallsTextItems item={item} />
             <FisicPropietyTextItem item={item} />
+            <DetallesEconomiaCircularTextItem item={item} />
           </ViewModal>
         </View>
     );
