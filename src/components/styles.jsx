@@ -1,10 +1,29 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
+  centeredView: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  modalView: {
+    backgroundColor: "white",
+    borderRadius: 20,
+    padding: 15,
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 5
+  },
   containerTable: { 
     flex: 1, 
     padding: 16, 
-    paddingTop: 30, 
+    paddingTop: 10, 
     backgroundColor: '#fff' 
   },
   headTable: { 
@@ -92,6 +111,7 @@ const styles = StyleSheet.create({
   buttonText: {
     color: "white",
     fontSize: 18,
+    padding: 10
   },
   buttonView: {
     width: "100%",

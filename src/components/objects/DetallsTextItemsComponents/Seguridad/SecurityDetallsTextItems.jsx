@@ -1,7 +1,8 @@
 import React from 'react';
-import { View } from 'react-native';
-import { ViewModal, TextItemModal } from '../common';
+import { View, Text } from 'react-native';
+import ViewModal from '../../../common/viewModal';
 import styles from '../../../styles';
+import { TextItemModal } from "../../TableItemModal";
 
 export default function GeneralDetallsTextItem({ item }) {
     return (

@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import styles from '../../../styles';
-import { ViewModal, TextItemModal } from '../../common';
+import ViewModal from '../../common/viewModal';
+import styles from '../../styles';
+import { TextItemModal } from "../TableItemModal";
 
 export default function DetallesEconomiaCircularTextItem({ item }) {
     const { parametros_economia_circular } = item.material;

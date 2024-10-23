@@ -1,16 +1,23 @@
 import React from "react";
-import { View, TouchableOpacity, Text } from "react-native";
+import { View, TouchableOpacity, Text, Alert } from "react-native";
 import styles from "../styles";
 
-export default function ActionButtonCardItem() {
+const ActionButtonCardItem = () => {
+  const handlePress = () =>
+    Alert.alert(
+      "Item Reservado",
+      "El item ha sido reservado correctamente.",
+      [{ text: "OK", onPress: () => console.log("OK Pressed") }]
+    );
+
   return (
-    <View style={{ marginBottom: 10 }}>
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => console.log("Reservar | Solicitar")}
-      >
+    <View style={styles.container}>
+      <TouchableOpacity style={styles.button} onPress={handlePress}>
         <Text style={styles.buttonText}>Reservar | Solicitar</Text>
       </TouchableOpacity>
     </View>
   );
-}
+};
+
+export default ActionButtonCardItem;
+

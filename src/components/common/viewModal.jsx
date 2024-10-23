@@ -8,22 +8,22 @@ export default function ViewDetailsButton({ children, text }) {
   return (
     <View>
       <Modal
-        animationType="slide"
+        animationType="fade"
         transparent={true}
         visible={modalVisible}
         onRequestClose={() => {
           Alert.alert('Modal has been closed.');
           setModalVisible(!modalVisible);
         }}>
-        <View>
-          <View style={styles.containerTable}>
+        <View style={styles.centeredView}>
+          <View style={styles.modalView}>
             <ScrollView>
               {children}
             </ScrollView>
             <Pressable 
-              style={styles.button}
+              style={[styles.button, {backgroundColor: 'red'}]}
               onPress={() => setModalVisible(!modalVisible)}>
-              <Text style={styles.buttonText}>Close</Text>
+              <Text style={styles.buttonText }>Close</Text>     
             </Pressable>
           </View>
         </View>
@@ -36,3 +36,4 @@ export default function ViewDetailsButton({ children, text }) {
     </View>
   );
 }
+
