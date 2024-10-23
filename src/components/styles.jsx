@@ -4,12 +4,12 @@ const styles = StyleSheet.create({
   centeredView: {
     flex: 1,
     justifyContent: "center",
-    alignItems: "center",
+    alignItems: "center",    
   },
   modalView: {
     backgroundColor: "white",
     borderRadius: 20,
-    padding: 15,
+    padding: 25,
     alignItems: "center",
     shadowColor: "#000",
     shadowOffset: {
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.25,
     shadowRadius: 4,
-    elevation: 5
+    elevation: 5,
   },
   containerTable: { 
     flex: 1, 
