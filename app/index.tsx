@@ -10,9 +10,9 @@ const Drawer = createDrawerNavigator();
 function Navigations() {
     return (
         <NavigationContainer independent={true}>
-            <Drawer.Navigator initialRouteName="Login">
-                <Drawer.Screen name="Login" component={LoginScreen} />
-                <Drawer.Screen name="Inventory" component={InventoryScreen} />
+            <Drawer.Navigator initialRouteName="Inicio de Session">
+                <Drawer.Screen name="Inicio de Session" component={LoginScreen} />
+                <Drawer.Screen name="Prueva piloto funcional" component={InventoryScreen} />
                 <Drawer.Screen name="Interfaz de Ejemplo" component={InventoryDetailsScreen} />
             </Drawer.Navigator>
         </NavigationContainer>
