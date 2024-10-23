@@ -1,6 +1,4 @@
- 
-
-# LoginForm
+ # LoginForm
 
 El componente `LoginForm` es un formulario que permite a los usuarios ingresar su nombre de usuario y contraseña para iniciar sesión en la aplicación.
 
