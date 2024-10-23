@@ -8,7 +8,7 @@ export default function CompositionDetallsTextItem({ item }) {
     return (
         <View>
           <ViewModal text={"Composicion"}>
-            <Text style={styles.name}>Composicion</Text>
+            <Text style={styles.name}>Composicio</Text>
             <TextItemModal
               item="Elementos Quimicos"
               dato={item.material.parametros_generales.composicion.elementos_quimicos.join(", ")}

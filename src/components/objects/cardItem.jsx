@@ -3,14 +3,14 @@ import { View, Image } from "react-native";
 import styles from "../styles";
 import InfoCardItem from "./infoCardItem";
 import ActionButtonCardItem from "./actionButtonCardItem";
-import ViewDetailsButton from "../common/viewModal";
+import ViewDetailsButton from "./viewDetallsBotton";
 
 export default function CardItem({ nameItem, descriptionItem, imageItem, item }) {
     return (
         <View style={styles.containerItem}>
             <Image source={{ uri: imageItem }} style={styles.imageItem} />
             <InfoCardItem nameItem={nameItem} descriptionItem={descriptionItem} />
-            <ViewDetailsButton item={item}/>
+            <ViewDetailsButton item={item} />
             <ActionButtonCardItem />
         </View>
     );

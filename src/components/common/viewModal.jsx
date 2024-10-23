@@ -6,7 +6,7 @@ export default function ViewDetailsButton({ children, text }) {
   const [modalVisible, setModalVisible] = useState(false);
 
   return (
-    <View style={styles.centeredView}>
+    <View>
       <Modal
         animationType="slide"
         transparent={true}
@@ -16,7 +16,7 @@ export default function ViewDetailsButton({ children, text }) {
           setModalVisible(!modalVisible);
         }}>
         <View style={styles.centeredView}>
-          <View style={styles.modalView}>
+          <View style={styles.containerTable}>
             <ScrollView>
               {children}
             </ScrollView>
