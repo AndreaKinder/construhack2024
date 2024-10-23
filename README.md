@@ -14,7 +14,6 @@ Esta aplicación fue desarrollada en tan solo 3 días para la hackathon "Constru
 
 ## Imagenes de la aplicacion
 ![App Image login](img/app-construhack2024-3.png)
-![App Image 1](img/app-construhack2024.png =400x800)
 
 ## Características
 - Gestión de inventario de materiales sobrantes de obras civiles
