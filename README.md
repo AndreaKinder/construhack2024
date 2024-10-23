@@ -1,5 +1,12 @@
 # ConstruHack 2024 - Aplicación de Economía Circular para Materiales Sobrantes de Obras Civiles
-
+##  Guia de general de contenido
+- Carpeta `/ai-docker-server`: contiene los archivos necesarios para ejecutar el servidor (en este caso, una [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/))
+  - `dockerfile`: archivos necesarios para generar un sistema aislado con el modelo de IA para clasificar imágenes en el servidor.
+  - Un script de Python que ejecuta todo el servidor.
+- Carpeta `/docs`: incluye la documentación del proyecto, guías de usuario y especificaciones técnicas.
+- Carpeta `/app`: contiene solo el archivo `index.tsx`, que es el punto de entrada principal de la aplicación.
+- Carpeta `/src`: almacena los módulos de código base, funciones reutilizables y componentes de la aplicacion.
+- Carpeta `/assets`: guarda imágenes, estilos y otros recursos estáticos utilizados en la aplicación.
 ## Descripción
 Esta aplicación fue desarrollada en tan solo 3 días para la hackathon "ConstruHack 2024". Es un modelo para la presentación de una aplicación innovadora que promueve la economía circular en el sector de la construcción. Utilizando una base de datos de materiales sobrantes de obras civiles, la aplicación permite que estos recursos se reutilicen eficientemente en otros proyectos, reduciendo el excedente y fomentando la sostenibilidad en la industria de la construcción.
 ## Cómo funciona la aplicación
