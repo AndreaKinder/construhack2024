@@ -14,6 +14,7 @@ export default function ItemDetailsScreen({ item }) {
           nameItem={item.material.parametros_generales.identificacion.nombre_comercial} 
           descriptionItem={item.material.parametros_generales.descripcion} 
           imageItem={item.material.parametros_generales.imagen}
+          item={item}
          />
         )}
     </ScrollView>    

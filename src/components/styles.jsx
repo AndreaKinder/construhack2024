@@ -1,6 +1,19 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
+  containerTable: { 
+    flex: 1, 
+    padding: 16, 
+    paddingTop: 30, 
+    backgroundColor: '#fff' 
+  },
+  headTable: { 
+    height: 40, 
+    backgroundColor: '#f1f8ff'
+  },
+  textTable: { 
+    margin: 6 
+  },
   containerItem: {
     marginVertical: 20,
     marginHorizontal: '2.5%',
@@ -67,13 +80,14 @@ const styles = StyleSheet.create({
     color: "red"
   },
   button: {
-    backgroundColor: "red",
+    backgroundColor: "gray",
     height: 45,
     borderColor: "gray",
     borderWidth: 1,
     borderRadius: 5,
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
+    marginBottom: 20,
   },
   buttonText: {
     color: "white",

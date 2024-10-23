@@ -4,7 +4,6 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import InventoryScreen from '../src/components/objects/InventoryScreen';
 import LoginScreen from '../src/screens/LoginScreen';
 import InventoryDetailsScreen from '../src/screens/InventoryDetailsScreen';
-import AnalyticsTab from '../src/components/objects/InventoryScreenAnalitics';
 
 const Drawer = createDrawerNavigator();
 
@@ -14,8 +13,7 @@ function Navigations() {
             <Drawer.Navigator initialRouteName="Login">
                 <Drawer.Screen name="Login" component={LoginScreen} />
                 <Drawer.Screen name="Inventory" component={InventoryScreen} />
-                <Drawer.Screen name="InventoryDetails" component={InventoryDetailsScreen} />
-                <Drawer.Screen name="Analytics" component={AnalyticsTab} />
+                <Drawer.Screen name="InventoryDetails" component={InventoryDetailsScreen} options={{ unmountOnBlur: true }} initialParams={{ item: {} as any }} />
             </Drawer.Navigator>
         </NavigationContainer>
     );
