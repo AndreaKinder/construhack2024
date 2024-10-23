@@ -3,7 +3,7 @@ import { View, Image } from "react-native";
 import styles from "../styles";
 import InfoCardItem from "./infoCardItem";
 import ActionButtonCardItem from "./actionButtonCardItem";
-import ViewDetailsButton from "./viewDetailsModal";
+import ViewDetailsButton from "../common/viewModal";
 
 export default function CardItem({ nameItem, descriptionItem, imageItem, item }) {
     return (

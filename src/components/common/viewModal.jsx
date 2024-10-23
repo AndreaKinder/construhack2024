@@ -1,9 +1,8 @@
-import React, {useState} from 'react';
-import {Alert, Modal, Text, Pressable, View, ScrollView} from 'react-native';
+import React, { useState, Children } from 'react';
+import { Alert, Modal, Text, Pressable, View, ScrollView } from 'react-native';
 import styles from '../styles';
-import GeneralModalTextItem from './DetallsTextItemsComponents/GeneralModalTextItem';
 
-export default function ViewDetailsButton({item}) {
+export default function ViewDetailsButton({ children, text }) {
   const [modalVisible, setModalVisible] = useState(false);
 
   return (
@@ -19,7 +18,7 @@ export default function ViewDetailsButton({item}) {
         <View style={styles.centeredView}>
           <View style={styles.modalView}>
             <ScrollView>
-              <GeneralModalTextItem item={item} />
+              {children}
             </ScrollView>
             <Pressable 
               style={[styles.button, styles.buttonClose]}
@@ -32,7 +31,7 @@ export default function ViewDetailsButton({item}) {
       <Pressable
         style={[styles.button, styles.buttonOpen]}
         onPress={() => setModalVisible(true)}>
-        <Text style={styles.buttonText}>Ver Detalles</Text>
+        <Text style={styles.buttonText}>{text}</Text>
       </Pressable>
     </View>
   );
