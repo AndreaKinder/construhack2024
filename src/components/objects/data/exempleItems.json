@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Pala de obra",
+    "description": "Pala de obra en buen estado, ideal para mover tierra y otros materiales.",
+    "image": "https://th.bing.com/th/id/OIP.ZAWa2trM5ig_8NSpuwmLgAHaEE?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 2,
+    "name": "Rastrillo",
+    "description": "Rastrillo perfecto para recoger hojas y otros materiales en el jard n.",
+    "image": "https://th.bing.com/th/id/OIP.ZAWa2trM5ig_8NSpuwmLgAHaEE?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 3,
+    "name": "Carretilla",
+    "description": "Carretilla para transportar materiales pesados con facilidad.",
+    "image": "https://th.bing.com/th/id/OIP.ZAWa2trM5ig_8NSpuwmLgAHaEE?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 4,
+    "name": "Manguera",
+    "description": "Manguera para regar jardines y huertas.",
+    "image": "https://th.bing.com/th/id/OIP.ZAWa2trM5ig_8NSpuwmLgAHaEE?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 5,
+    "name": "Sierra de podar",
+    "description": "Sierra de podar para recortar ramas y plantas.",
+    "image": "https://th.bing.com/th/id/OIP.ZAWa2trM5ig_8NSpuwmLgAHaEE?rs=1&pid=ImgDetMain"
+  }
+]

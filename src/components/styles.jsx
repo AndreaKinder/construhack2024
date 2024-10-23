@@ -1,13 +1,21 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  container: {
-    alignItems: "center",
-    paddingTop: 70,
+  containerItem: {
+    marginVertical: 20,
+    marginHorizontal: '2.5%',
+    padding: 10,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: 'gray',
+    width: '95%',
+    alignSelf: 'center',
   },
-  image: {
-    height: 160,
-    width: 170
+  imageItem: {
+    resizeMode: 'contain',
+    height: 150,
+    width: 150,
+    alignSelf: 'center',
   },
   title: {
     fontSize: 30,
@@ -94,7 +102,44 @@ const styles = StyleSheet.create({
   signup: {
     color: "red",
     fontSize: 13
-  }
+  },
+  card: {
+    backgroundColor: 'white',
+    borderRadius: 10,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+    padding: 10,
+    width: 300,
+  },
+  image: {
+    width: 200,
+    height: 200,
+    resizeMode: 'contain',
+    marginBottom: 10,
+  },
+  info: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  name: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 5,
+  },
+  description: {
+    textAlign: 'center',
+    marginBottom: 10,
+  },
+  actions: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
 
 export default styles;
