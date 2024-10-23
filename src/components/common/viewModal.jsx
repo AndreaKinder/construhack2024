@@ -15,13 +15,13 @@ export default function ViewDetailsButton({ children, text }) {
           Alert.alert('Modal has been closed.');
           setModalVisible(!modalVisible);
         }}>
-        <View style={styles.centeredView}>
+        <View>
           <View style={styles.containerTable}>
             <ScrollView>
               {children}
             </ScrollView>
             <Pressable 
-              style={[styles.button, styles.buttonClose]}
+              style={styles.button}
               onPress={() => setModalVisible(!modalVisible)}>
               <Text style={styles.buttonText}>Close</Text>
             </Pressable>
@@ -29,7 +29,7 @@ export default function ViewDetailsButton({ children, text }) {
         </View>
       </Modal>
       <Pressable
-        style={[styles.button, styles.buttonOpen]}
+        style={styles.button}
         onPress={() => setModalVisible(true)}>
         <Text style={styles.buttonText}>{text}</Text>
       </Pressable>
