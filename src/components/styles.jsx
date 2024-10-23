@@ -17,6 +17,13 @@ const styles = StyleSheet.create({
     width: 150,
     alignSelf: 'center',
   },
+  imageLogo: {
+    resizeMode: 'contain',
+    height: 200,
+    width: 200,
+    alignSelf: 'center',
+    marginTop: 20
+  },
   title: {
     fontSize: 30,
     fontWeight: "bold",
