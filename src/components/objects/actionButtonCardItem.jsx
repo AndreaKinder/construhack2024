@@ -1,11 +1,16 @@
 import React from "react";
-import { View, Button } from "react-native";
+import { View, TouchableOpacity, Text } from "react-native";
 import styles from "../styles";
 
 export default function ActionButtonCardItem() {
-    return (
+  return (
     <View style={{ marginBottom: 10 }}>
-      <Button styles={styles.button} title="Reservar | Solicitar" onPress={() => console.log('Reservar | Solicitar')} />
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => console.log("Reservar | Solicitar")}
+      >
+        <Text style={styles.buttonText}>Reservar | Solicitar</Text>
+      </TouchableOpacity>
     </View>
-    )
+  );
 }

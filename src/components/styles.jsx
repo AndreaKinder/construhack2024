@@ -92,7 +92,6 @@ const styles = StyleSheet.create({
   buttonText: {
     color: "white",
     fontSize: 18,
-    fontWeight: "bold"
   },
   buttonView: {
     width: "100%",
@@ -149,11 +148,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   name: {
-    fontSize: 20,
+    fontSize: 25,
     fontWeight: 'bold',
     marginBottom: 5,
   },
   description: {
+    fontSize: 20,
     textAlign: 'center',
     marginBottom: 10,
   },

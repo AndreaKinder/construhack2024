@@ -12,7 +12,7 @@ function Navigations() {
         <NavigationContainer independent={true}>
             <Drawer.Navigator initialRouteName="Inicio de Session">
                 <Drawer.Screen name="Inicio de Session" component={LoginScreen} />
-                <Drawer.Screen name="Prueva piloto funcional" component={InventoryScreen} />
+                <Drawer.Screen name="Prueba piloto servidor" component={InventoryScreen} />
                 <Drawer.Screen name="Interfaz de Ejemplo" component={InventoryDetailsScreen} />
             </Drawer.Navigator>
         </NavigationContainer>
