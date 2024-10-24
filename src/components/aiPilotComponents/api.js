@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000',
-});
-
+    baseURL: 'http://localhost:5000',
+  });
+    
 const uploadImage = async (imageData) => {
   try {
     const response = await api.post('/upload', {
