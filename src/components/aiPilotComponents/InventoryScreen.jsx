@@ -9,23 +9,26 @@
  * @returns {React.ReactElement} Pantalla de inventario
  * 
  * TODO: 
- *  - Exportar styles dentro de fichero central
  *  - Exportar funcionalidades del servidor e un script con js
  *    - handleSearch: Line 42
  *    - handleTakePhoto: Line 50
- *    - handleAddItem: Line 58 
+ *    - handleAddItem: Line 58
  *  - Separar componentes en subcomponentes
- *  - Denegar acceso a pantalla si no hay conexion con el servidor 
- */
+ *  - Denegar acceso a pantalla si no hay conexion con el servidor
+ *  - Agregar un loading al tomar una foto
+ *  - Agregar un mensaje de error si no se puede agregar un item
+ *  - Agregar un mensaje de error si no se puede buscar un item
+ *  - Agregar un mensaje de error si no se puede ver los detalles de un item
+a */
 
 
-import { StyleSheet } from 'react-native';
 import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, FlatList, Image, Modal, Button } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import SearchBar from '@/src/components/search/SearchBar';
 //import { Camera } from 'expo-camera';
 import { Ionicons } from '@expo/vector-icons';
+import styles from '../styles';
 
 const InventoryScreen = () => {
   const [inventory, setInventory] = useState([]); // estado para guardar la lista de elementos

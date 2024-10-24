@@ -1,26 +1,19 @@
-import React from 'react';
-import { TextInput, View, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { View, TextInput } from 'react-native';
+import styles from '../styles';
 
-const SearchBar = ({ placeholder, value, onChangeText, containerStyle }) => {
+export default function SearchBar ({ placeholder, value, onChangeText, style }) {
+
   return (
-    <View style={containerStyle}>
       <TextInput
-        style={styles.searchInput}
+        style={[styles.searchInput, style]}
         placeholder={placeholder}
         value={value}
         onChangeText={onChangeText}
       />
-    </View>
-  );
-};
-
-const styles = StyleSheet.create({
-  searchInput: {
-    height: 40,
-    borderColor: 'gray',
-    borderWidth: 1,
-    padding: 10,
-  },
-});
-
-export default SearchBar;
+  )
+}
+  // TODO: Implementar los siguientes componentes
+  // - SearchBarIcon (Icono de lupa)
+  // - SearchBarClear (Bot n de limpiar el input)
+  // - SearchBarResults (Lista de resultados de la bsqueda)
