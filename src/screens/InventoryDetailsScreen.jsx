@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../components/styles';
-import jsonItemsExemple from '../components/objects/data/exempleItems.json';
-import CardItem from '../components/objects/cardItem';
+import jsonItemsExemple from '../components/objectsScreenExemple/data/exempleItems.json';
+import CardItem from '../components/objectsScreenExemple/cardItem';
 import { ScrollView } from 'react-native-gesture-handler';
 
 export default function ItemDetailsScreen() {

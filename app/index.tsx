@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import InventoryScreen from '../src/components/objects/InventoryScreen';
+import InventoryScreen from '../src/components/objectsScreenExemple/InventoryScreen';
 import LoginScreen from '../src/screens/LoginScreen';
 import InventoryDetailsScreen from '../src/screens/InventoryDetailsScreen';
 

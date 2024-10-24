@@ -7,7 +7,17 @@
  * Permite ver los detalles de un elemento seleccionado.
  * 
  * @returns {React.ReactElement} Pantalla de inventario
+ * 
+ * TODO: 
+ *  - Exportar styles dentro de fichero central
+ *  - Exportar funcionalidades del servidor e un script con js
+ *    - handleSearch: Line 42
+ *    - handleTakePhoto: Line 50
+ *    - handleAddItem: Line 58 
+ *  - Separar componentes en subcomponentes
+ *  - Denegar acceso a pantalla si no hay conexion con el servidor 
  */
+
 
 import { StyleSheet } from 'react-native';
 import React, { useState, useEffect } from 'react';
