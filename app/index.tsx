@@ -7,7 +7,7 @@ import InventoryDetailsScreen from '../src/screens/InventoryDetailsScreen';
 
 const Drawer = createDrawerNavigator();
 
-function Navigations() {
+export default function Navigations() {
     return (
         <NavigationContainer independent={true}>
             <Drawer.Navigator initialRouteName="Inicio de Session">
@@ -18,5 +18,3 @@ function Navigations() {
         </NavigationContainer>
     );
 }
-
-export default Navigations;
