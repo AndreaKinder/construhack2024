@@ -33,11 +33,6 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     padding: 10,
   },
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
   inventoryItem: {
     width: 200,
     height: 200,

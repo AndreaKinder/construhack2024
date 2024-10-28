@@ -1,5 +1,5 @@
 import React from "react";
-import { View, TouchableOpacity, Text, Alert } from "react-native";
+import { View, TouchableOpacity, Text, Alert, StyleSheet } from "react-native";
 import styles from "../styles";
 
 const ActionButtonCardItem = () => {
@@ -18,6 +18,7 @@ const ActionButtonCardItem = () => {
     </View>
   );
 };
+
 
 export default ActionButtonCardItem;
 

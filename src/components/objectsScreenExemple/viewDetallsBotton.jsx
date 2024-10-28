@@ -7,11 +7,13 @@ import QuantityAvailableDetallsTextItem from "./DetallsTextItemsComponents/Gener
 import SecurityDetallsTextItems from "./DetallsTextItemsComponents/Seguridad/SecurityDetallsTextItems";
 import FisicPropietyTextItem from "./DetallsTextItemsComponents/Seguridad/FisicPropietyTextItem";
 import DetallesEconomiaCircularTextItem from "./DetallsTextItemsComponents/EconomyTextItem";
+import { StyleSheet } from "react-native";
+import styles from "../styles";
 
 export default function DetallsTextItems({ item }) {
     return (
         <View>
-          <ViewModal  text={"Detalles"}>
+          <ViewModal styles={styles.button}  text={"Detalles"}>
             <GeneralDetallsTextItem item={item} />
             <CompositionDetallsTextItem item={item} />
             <QuantityAvailableDetallsTextItem item={item} />
