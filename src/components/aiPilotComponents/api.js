@@ -33,4 +33,5 @@ const addInventoryItem = async (itemData) => {
   }
 };
 
+
 export { uploadImage, getInventory, addInventoryItem };
