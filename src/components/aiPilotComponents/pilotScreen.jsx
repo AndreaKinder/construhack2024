@@ -1,12 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, TouchableOpacity, FlatList, Image } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
-import { Ionicons } from '@expo/vector-icons';
+import React from 'react';
+import { View, Text, FlatList, Image } from 'react-native';
 import styles from '../styles';
-import CameraScreen from './cameraScreen';
 import SearchBar from '@/src/components/search/SearchBar';
-import handleSearch from './handleSeach';
-import handleAddItem from './handleInventory';
+import { searchQuery, filteredInventory, handleSearch } from './handleSeach';
 import { OpenCamera } from './openCamera';
 
 const PilotScreen = () => {
