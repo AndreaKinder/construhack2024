@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { View } from 'react-native';
-import PilotScreen from './pilotScreen';
-import OfflineScreen from './offlineScreen';
-import { getInventory } from './api';
+import PilotScreen from '../components/aiPilotComponents/pilotScreen';
+import OfflineScreen from '../components/aiPilotComponents/offlineScreen';
+import { getInventory } from '../components/aiPilotComponents/api';
 
 const PilotApp = () => {
   const [isConnected, setIsConnected] = useState(false);

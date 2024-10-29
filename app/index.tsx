@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import LoginScreen from '../src/screens/LoginScreen';
 import InventoryDetailsScreen from '../src/screens/InventoryDetailsScreen';
-import PilotApp from '@/src/components/aiPilotComponents/PilotAppScreen';
+import PilotApp from '@/src/screens/PilotAppScreen';
 
 const Drawer = createDrawerNavigator();
 
